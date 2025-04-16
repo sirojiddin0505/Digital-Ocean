@@ -4,7 +4,7 @@ nav{
     right: 0;
     top:0px;
     z-index: 100;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 .nav__container, .nav__center{
     display: flex;
@@ -17,6 +17,7 @@ nav{
 .nav__img{
     max-width: 100%;
     width: 69px;
+    margin-left: 15px;
 }
 .nav__title{
     font-weight: 400;
@@ -50,26 +51,33 @@ nav{
     display: none;
     font-size: 28px;
     cursor: pointer;
+    margin-right: 15px;
 }
 .mobile_menu {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 10px;
     background-color: #f5f5f5;
     padding: 20px;
     position: absolute;
-    top: 90px;
+    top: 75px;
     max-width: 100%;
     width: 800px;
     z-index: 100;
-    margin-right: 100px;
+    border-radius: 0 0 8px 8px;
     border-top: 1px solid rgb(138, 135, 135);
+}
+.mobile__text{
+    color: rgba(0, 0, 0, 1);
+}
+.mobile__text:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 @media  only screen and (max-width:700px) {
     .nav__container{
-        padding: 10px;
+        padding: 2px 0;
     }
     .nav__right, .nav__center{
         display: none;

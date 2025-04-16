@@ -11,7 +11,7 @@
     line-height: 150%;
     color: rgba(0, 0, 0, 1);
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0;
 }
 .main__boxs{
     max-width: 100%;
@@ -20,7 +20,7 @@
 }
 .main__img{
     max-width: 100%;
-    padding: 60px 0;
+    padding-bottom: 20px;
 }
 .main__subtitle{
     font-weight: 500;
@@ -36,4 +36,21 @@
     color: rgba(0, 0, 0, 1);
     max-width: 354px;
     padding: 20px 0;
+    opacity: 70%;
+}
+@media screen and (max-width:500px) {
+    .main__title{
+        font-size: 35px;
+    }
+    .main__img{
+        width: 100px;
+        height: 100px;
+    }
+    .main__subtitle{
+        font-size: 24px;
+    }
+    .main__text{
+        font-size: 18px;
+        padding: 10px 30px;
+    }
 }

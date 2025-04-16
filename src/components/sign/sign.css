@@ -43,7 +43,13 @@ form{
     font-weight: bold;
     font-size: 20px;
 }
-@media screen and (max-width:504px) {
+@media screen and (max-width:540px) {
+    .sign__title{
+        font-size: 25px;
+    }
+    .sign__text{
+        font-size: 18px;
+    }
     .sign__btn{
         max-width: 100%;
         width: 300px;
@@ -54,5 +60,8 @@ form{
         width: 300px;
         border-radius: 30px;
         margin-bottom: 10px;
+    }
+    form{
+        padding: 20px 0;
     }
 }

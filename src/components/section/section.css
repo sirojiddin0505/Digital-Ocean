@@ -14,8 +14,8 @@
     row-gap: 30px;
 }
 .section__boxs{
-    background: linear-gradient(to right, blue 0% 15%, rgb(238, 235, 235)  15% 100%);
-    width: 420px;
+    background: linear-gradient(to right, blue 0% 13%, rgb(238, 235, 235)  10% 100%);
+    width: 400px;
     max-width: 100%;
     border-radius: 10px;  
 }
@@ -33,7 +33,7 @@
     justify-content:center;
     align-items: center;
     gap: 20px;
-    padding-bottom: 30px;
+    padding: 20px 0;
 }
 hr{
     max-width: 100%;
@@ -63,7 +63,8 @@ hr{
 }
 @media screen and (max-width:560px) {
     .section__title{
-        font-size: 37px;
+        font-size: 30px;
+        padding: 30px;
     }
     .section__boxs{
         width: 350px;
@@ -71,5 +72,14 @@ hr{
     }
     .section__text{
         font-size: 16px;
+        padding: 15px 0;
+        margin-left: 20px;
+    }
+    .section__name, .section__info{
+        font-size: 16px;
+        padding: 2px 0;
+    }
+    hr{
+        width: 20px;
     }
 }

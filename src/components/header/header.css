@@ -1,4 +1,5 @@
 .header__container{
+    padding-top: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,8 +29,8 @@
 }
 .header__btn{
     font-weight: 400;
-    font-size: 20px;
-    padding: 14px 30px;
+    font-size: 18px;
+    padding: 12px 24px;
     border: 1px solid rgba(0, 128, 253, 1);
     border-radius: 8px;
     background-color: rgba(0, 130, 244, 1);

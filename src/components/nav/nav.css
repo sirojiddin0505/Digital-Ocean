@@ -5,11 +5,15 @@ nav{
     top:0px;
     z-index: 100;
     background-color: white;
+    border-bottom: 1px solid black;
 }
 .nav__container, .nav__center{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.nav__container{
+    padding: 10px;
 }
 .nav__center{
     gap:40px;

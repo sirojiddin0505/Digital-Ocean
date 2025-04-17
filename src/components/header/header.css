@@ -1,5 +1,5 @@
 .header__container{
-    padding: 150px 20px;
+    padding: 110px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,6 +75,9 @@
     }
 }
 @media screen and (max-width:500px) {
+    .header__container{
+        padding: 100px 20px 40px 20px;
+    }
     .header__text, .header__info{
         font-size: 16px;
         padding: 10px 40px;

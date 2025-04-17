@@ -1,13 +1,14 @@
 import React from 'react'
 import "./hero.css"
-import heroimg from'./images/Image (1).svg'
+// import heroimg from'./images/Image (1).svg'
 
 const hero = () => {
   return (
-    <hero>
+    <div className='hero'>
         <div className="container hero__container">
             <div className="hero__left">
-                <img src={heroimg} alt="" className='hero__img'/>
+                {/* <img src={heroimg} alt="" className='hero__img'/> */}
+                <iframe className='hero__video' src="https://www.youtube.com/embed/3T9RaXgwf3c?si=LFkh5o1PijBWZIge" allowFullScreen></iframe>
             </div>
             <div className="hero__right">
                 <p className="hero__info">COMMMUNITY</p>
@@ -16,7 +17,7 @@ const hero = () => {
                 <button className="hero__btn">What we do?</button>
             </div>
         </div>
-    </hero>
+    </div>
   )
 }
 

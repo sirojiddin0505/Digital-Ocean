@@ -8,6 +8,12 @@
     max-width: 100%;
     width: 548px;
 }
+.hero__video{
+    max-width: 100%;
+    width: 550px;
+    height: 310px;
+    border-radius: 10px;
+}
 .hero__info{
     font-weight: 500;
     font-size: 25px;
@@ -71,6 +77,9 @@
     }
 }
 @media screen and (max-width:500px) {
+    .hero__container{
+        padding: 10px 20px;
+    }
     .hero__text, .hero__info{
         font-size: 16px;
         padding: 10px 40px;

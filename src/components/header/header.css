@@ -39,11 +39,11 @@
     margin: 30px auto;
 }
 .header__btn:hover{
-    border: 1px solid rgba(0, 128, 253, 1);
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(0, 128, 253, 1);
-    transition: all 0.8s;
-    transform: scale(1.05);
+    background-color:rgb(96, 161, 226);
+    transition: all 0.3s;
+}
+.header__btn:active{
+    transform: scale(0.95);
 }
 .header__img{
     max-width: 100%;

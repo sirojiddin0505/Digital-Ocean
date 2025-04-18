@@ -32,6 +32,7 @@ const Nav = () => {
             <a href="#" className="header_link"><p className="mobile__text">About</p></a>
             <a href="#" className="header_link"><p className="mobile__text">Services</p></a>
             <a href="#" className="header_link"><p className="mobile__text">Reviews</p></a>
+            <button className="button">Get Started</button>
           </div>
         )}
       </div>

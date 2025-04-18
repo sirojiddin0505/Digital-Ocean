@@ -37,7 +37,7 @@ nav{
 .nav__btn{
     font-weight: 400;
     font-size: 18px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border: none;
     border-radius: 8px;
     background-color: rgba(0, 130, 244, 1);
@@ -45,11 +45,25 @@ nav{
     cursor: pointer;
 }
 .nav__btn:hover{
-    border: 1px solid rgba(0, 128, 253, 1);
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(0, 128, 253, 1);
-    transition: all 0.8s;
-    transform: scale(1.05);
+    background-color:rgb(96, 161, 226);
+    transition: all 0.3s;
+}
+.nav__btn:active{
+    transform: scale(0.95);
+}
+.button{
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 130, 244, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button:hover{
+    opacity: 80%;
+    background-color: rgb(56, 147, 238);
 }
 .hum_menu {
     display: none;

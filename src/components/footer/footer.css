@@ -8,7 +8,6 @@
 .footer__img{
     max-width:100%;
     width: 69px;
-    /* padding-top: 50px; */
 }
 .footer__title{
     font-weight: 500;
@@ -24,6 +23,9 @@
     opacity: 70%;
     padding: 8px 0;
 }
+.footer__text:hover{
+    opacity: 70%;
+}
 .footer__info{
     font-weight: 500;
     font-size: 20px;
@@ -32,6 +34,7 @@
 .footer__end{
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;
 }
 .footer__btn{
     padding: 12px 26px;

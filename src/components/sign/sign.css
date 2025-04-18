@@ -43,6 +43,12 @@ form{
     font-weight: bold;
     font-size: 20px;
 }
+.sign button:hover{
+    background-color: rgb(58, 152, 234);
+}
+.sign button:active{
+    transform: scale(0.96);
+}
 @media screen and (max-width:540px) {
     .sign__title{
         font-size: 25px;
